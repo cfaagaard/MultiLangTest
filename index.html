@@ -36,6 +36,8 @@
     
     
     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/css/flag-icon.min.css">
+    
     
       
     
@@ -85,7 +87,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Home
+              Choose language
             
           </span>
         </div>
@@ -130,94 +132,23 @@
       
       
         
-          
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  
-  
-    
-  
-
-
-  <li class="md-tabs__item">
-    <a href="." class="md-tabs__link md-tabs__link--active">
-      Home
-    </a>
-  </li>
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="da/docs/" class="md-tabs__link">
-        Da
-      </a>
-    </li>
-  
-
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="en/docs/" class="md-tabs__link">
-        En
-      </a>
-    </li>
-  
-
-  
-
-      
-    </ul>
-  </div>
-</nav>
-        
       
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
 
 
 
-  
 
-
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="LoopDocumentation" class="md-nav__button md-logo" aria-label="LoopDocumentation">
       
@@ -244,7 +175,7 @@
     
     
     <a href="." class="md-nav__link md-nav__link--active">
-      Home
+      Choose language
     </a>
     
   </li>
@@ -2877,10 +2808,11 @@
               
                 
                 
-                  <h1>Home</h1>
+                <h1>Choose language</h1>
+<p><a href='en/'><span class="flag-icon flag-icon-us"></span> English</a></p>
+<p><a href='da/'><span class="flag-icon flag-icon-dk"></span> Dansk</a></p>
                 
-                <p><a href="en/">English</a></p>
-<p><a href="da/">Dansk</a></p>
+                  
                 
               
               
@@ -2939,7 +2871,7 @@
       <script>
         app = initialize({
           base: ".",
-          features: ['navigation.tabs', 'toc.integrate'],
+          features: [],
           search: Object.assign({
             worker: "assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
