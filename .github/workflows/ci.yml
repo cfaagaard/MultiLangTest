@@ -21,3 +21,10 @@ jobs:
       - run: pip install mkdocs-macros-plugin
       - run: mkdocs build --config-file docs/da/mkdocs.yml
       - run: mkdocs build --config-file docs/en/mkdocs.yml
+
+      - uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          # This is the branch you wish to deploy to, for example gh-pages or docs.
+          BRANCH: gh-pages
+          # The folder in your repository that you want to deploy. If your build script compiles into a directory named build you would put it here. Folder paths cannot have a leading / or ./. If you wish to deploy the root directory you can place a . here.
+          FOLDER: .
