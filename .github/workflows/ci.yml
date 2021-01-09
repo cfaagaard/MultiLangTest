@@ -4,7 +4,7 @@ name: CI
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the workflow on push events but only for the main branch
   push:
     branches: [ main ]
 
@@ -18,4 +18,6 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: pip install mkdocs-monorepo-plugin
-      - run: mkdocs gh-deploy --force
+      - run: pip install mkdocs-macros-plugin
+      - run: mkdocs gh-deploy --force --config-file docs/da/mkdocs.yml
+      - run: mkdocs gh-deploy --force --config-file docs/en/mkdocs.yml

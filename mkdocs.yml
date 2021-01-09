@@ -1,11 +1,12 @@
 site_name: Loop Documentation
 
 extra_css:
-    - css/admonitions.css
+    - css/version.css
+
 markdown_extensions:
     - admonition
     - toc:
-        permalink: ⌁
+        permalink: true
 
 plugins:
   - monorepo
@@ -16,10 +17,8 @@ theme:
   custom_dir: overrides
   features:
       - navigation.tabs
+      - toc.integrate
 
 nav:
-    - English: '!include ./docs/en/mkdocs.yml'
-    - Dansk: '!include ./docs/da/mkdocs.yml'
-
-
-
+    - en:  '!include ./docs/en/mkdocs.yml'
+    - da: '!include ./docs/da/mkdocs.yml'

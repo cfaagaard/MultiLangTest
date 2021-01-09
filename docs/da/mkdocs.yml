@@ -1,4 +1,30 @@
-site_name: da
+site_name: Loop dokumentation
+
+
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: true
+
+extra_css:
+    - "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css"
+
+plugins:
+  - monorepo
+  - search
+  - macros
+
+theme:
+  name: material
+  custom_dir: ../../overrides
+  language: da
+  features:
+      - navigation.tabs
+      - toc.integrate
+
+extra:
+    flagname: "dk"
+    languagename: "Dansk"
 
 nav:
 - Hjem: 'index.md'
