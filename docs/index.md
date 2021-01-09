@@ -1,4 +1,10 @@
+---
+hide:
+  - navigation # Hide navigation
+  - toc        # Hide table of contents
+---
+# Choose language
 
-[English](en/)
+<a href='en/'><span class="flag-icon flag-icon-us"></span> English</a>
 
-[Dansk](da/)
+<a href='da/'><span class="flag-icon flag-icon-dk"></span> Dansk</a>
