@@ -19,5 +19,10 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-monorepo-plugin
       - run: pip install mkdocs-macros-plugin
-      - run: mkdocs build --config-file docs/da/mkdocs.yml
-      - run: mkdocs build --config-file docs/en/mkdocs.yml
+      - run: mkdocs build --config-file docs/da/mkdocs.yml --site-dir ../../site/da
+      - run: mkdocs build --config-file docs/en/mkdocs.yml --site-dir ../../site/en
+
+      - uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          BRANCH: gh-pages
+          FOLDER: site
