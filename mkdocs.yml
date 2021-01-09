@@ -1,4 +1,4 @@
-site_name: Loop Documentation
+site_name: LoopDocumentation
 
 extra_css:
     - css/version.css
@@ -18,7 +18,3 @@ theme:
   features:
       - navigation.tabs
       - toc.integrate
-
-nav:
-    - en:  '!include ./docs/en/mkdocs.yml'
-    - da: '!include ./docs/da/mkdocs.yml'
