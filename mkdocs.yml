@@ -1,5 +1,6 @@
 site_name: Loop Documentation
 repo_url: https://github.com/cfaagaard/MultiLangTest
+
 extra_css:
     - css/admonitions.css
 markdown_extensions:
