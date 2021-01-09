@@ -1,0 +1,24 @@
+site_name: Loop Documentation
+
+extra_css:
+    - css/version.css
+
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: true
+
+plugins:
+  - monorepo
+  - search
+  
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+      - navigation.tabs
+      - toc.integrate
+
+nav:
+    - en:  '!include ./docs/en/mkdocs.yml'
+    - da: '!include ./docs/da/mkdocs.yml'
