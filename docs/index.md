@@ -1,4 +1,4 @@
 
-[English](en/docs/index.md)
+[English](en/)
 
-[Dansk](da/docs/index.md)
+[Dansk](da/)

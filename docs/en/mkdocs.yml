@@ -1,4 +1,19 @@
-site_name: en
+site_name: Loop documentation
+
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: true
+
+plugins:
+  - search
+
+theme:
+  name: material
+  language: en
+  features:
+      - navigation.tabs
+      - toc.integrate
 
 nav:
 - Home: 'index.md'

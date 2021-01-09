@@ -17,8 +17,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
-      - run: pip install mkdocs-monorepo-plugin
-      - run: pip install mkdocs-macros-plugin
       - run: mkdocs build
       - run: mkdocs build --config-file docs/da/mkdocs.yml --site-dir ../../site/da
       - run: mkdocs build --config-file docs/en/mkdocs.yml --site-dir ../../site/en
