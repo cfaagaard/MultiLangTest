@@ -19,5 +19,5 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-monorepo-plugin
       - run: pip install mkdocs-macros-plugin
-      - run: mkdocs gh-deploy --force --config-file docs/da/mkdocs.yml
-      - run: mkdocs gh-deploy --force --config-file docs/en/mkdocs.yml
+      - run: mkdocs gh-deploy --force --config-file docs/da/mkdocs.yml --site_dir site/da
+      - run: mkdocs gh-deploy --force --config-file docs/en/mkdocs.yml --site_dir site/en
