@@ -1,5 +1,4 @@
 site_name: en
-edit_uri: edit/main/docs/en/docs
 
 nav:
 - Home: 'index.md'
