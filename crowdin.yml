@@ -1,0 +1,3 @@
+files:
+  - source: /loopdocs/en/**/*
+    translation: /loopdocs/%two_letters_code%/**/%original_file_name%
