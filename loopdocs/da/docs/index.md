@@ -1,9 +1,3 @@
----
-hide:
-  - navigation # Hide navigation
-  - toc        # Hide table of contents
----
-
 # Velkommen til Loop
 
 
@@ -16,7 +10,7 @@ hide:
 
 Den app er bygget oven på [LoopKit](https://github.com/LoopKit/LoopKit). LoopKit er et sæt af rammer, der leverer datalagring, hentning og beregning samt standardvisninger, der bruges i Loop.
 
-!!!warning "Vigtigt"
+!!!warning "Important"
 
     Forstå venligst, at dette projekt:
 
