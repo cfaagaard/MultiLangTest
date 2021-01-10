@@ -17,9 +17,9 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
-      - run: mkdocs build --config-file mainsite/mkdocs.yml --site-dir ../../site
-      - run: mkdocs build --config-file da/mkdocs.yml --site-dir ../../site/da
-      - run: mkdocs build --config-file en/mkdocs.yml --site-dir ../../site/en
+      - run: mkdocs build --config-file mainsite/mkdocs.yml --site-dir ../site
+      - run: mkdocs build --config-file da/mkdocs.yml --site-dir ../site/da
+      - run: mkdocs build --config-file en/mkdocs.yml --site-dir ../site/en
 
       - uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
