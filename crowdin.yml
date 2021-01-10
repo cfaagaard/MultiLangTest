@@ -1,0 +1,5 @@
+files:
+  - source: /loopdocs/en/**/*
+    ignore:
+      - /loopdocs/en/mkdocs.yml
+    translation: /loopdocs/%two_letters_code%/**/%original_file_name%
