@@ -20,7 +20,8 @@ jobs:
       - run: mkdocs build --config-file loopdocs/mainsite/mkdocs.yml --site-dir ../site
       - run: mkdocs build --config-file loopdocs/da/mkdocs.yml --site-dir ../site/da
       - run: mkdocs build --config-file loopdocs/en/mkdocs.yml --site-dir ../site/en
-
+      - run: mkdocs build --config-file loopdocs/de/mkdocs.yml --site-dir ../site/de
+        
       - uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           BRANCH: gh-pages
