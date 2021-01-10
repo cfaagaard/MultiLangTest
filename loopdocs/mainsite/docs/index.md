@@ -7,4 +7,4 @@ hide:
 
 <a href='en/'><span class="flag-icon flag-icon-us"></span> English</a>
 
-<a href='da/'><span class="flag-icon flag-icon-dk"></span> Dansk</a>
+<a href='da/'><span class="flag-icon flag-icon-dk"></span> Danish</a>

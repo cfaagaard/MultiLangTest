@@ -1,9 +1,13 @@
 site_name: Loop dokumentation
+repo_url: https://github.com/cfaagaard/MultiLangTest/
+edit_uri: edit/main/loopdocs/da/docs
 
 markdown_extensions:
+    - meta
     - admonition
     - toc:
         permalink: true
+    
 
 plugins:
   - search
