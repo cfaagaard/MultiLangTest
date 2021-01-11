@@ -1,6 +1,7 @@
 # Welcome to Loop
 
 
+
 <img src="img/phones.png" width="300" alt="iPhone Screenshot">
 <img src="img/watch.png" alt="Apple Watch Screenshots">
 
@@ -13,9 +14,9 @@ The app is built on top of [LoopKit](https://github.com/LoopKit/LoopKit). LoopKi
 !!!warning "Important"
 
     Please understand that this project:
+Translationtest: added new sentence. (This one). Changed "not" to NOTNOT below. Deleted a sentence below.
 
-    - Is highly experimental
-    - Is not approved for therapy
+    - Is NOTNOT approved for therapy 
 
       **You take full responsibility for building and running this system and do so at your own risk.**
 
