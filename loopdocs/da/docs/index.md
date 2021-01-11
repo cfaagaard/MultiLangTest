@@ -1,6 +1,7 @@
 # Velkommen til Loop
 
 
+
 <img src="img/phones.png" width="300" alt="iPhone Screenshot" />
 <img src="img/watch.png" alt="Apple Watch Screenshots" />
 
@@ -13,19 +14,19 @@ Den app er bygget oven på [LoopKit](https://github.com/LoopKit/LoopKit). LoopKi
 !!!warning "Important"
 
     Forstå venligst, at dette projekt:
+Translationtest: added new sentence. (This one). Changed "not" to NOTNOT below. Deleted a sentence below.
 
-    - Er meget eksperimenterende
-    - Er ikke godkendt til behandling
+    - Is NOTNOT approved for therapy
 
-      **Du tager det fulde ansvar for at opbygge og køre dette system og gør det på egen risiko.**
+      **You take full responsibility for building and running this system and do so at your own risk.**
 
-Ved hjælp af open source Loop-appskabelonen kan du opbygge et insulinleveringssystem, der bruger specifikke kommercielle og open source-hardware- og softwareteknologier til at samle insulinpumpen, kontinuerlig glukosemonitor (CGM) og insulindoseringsalgoritmen for at skabe en kontinuerlig insulin-afgivelse.  Dette Loop forudsiger fremtidig glukose baseret på basalrater, kulhydratindtag, aktiv insulin, og aktuelle CGM-aflæsninger.  Disse glukose prognoser giver Loop de oplysninger, der er nødvendige for at anbefale en midlertidig basalrate for at opnå det ønskede blodsukkerniveau.  Systemet kan enten fungere som en »åben loop« ved at vise anbefalinger til brugeren som skal godkendes eller som en »lukket loop« ved automatisk at indstille den anbefalede midlertidige basale rate.
+Using the open-source Loop app template, you can build an insulin delivery system that uses specific commercial and open-source hardware and software technologies to bring together the insulin pump, continuous glucose monitor (CGM), and insulin dosing algorithm to create a continuous insulin basal dosing “Loop”.  This Loop predicts future glucose based on basal-rate schedules, carbohydrate intake, insulin on board, and current CGM readings.  These glucose forecasts provide Loop with the information needed to recommend a temporary basal rate to attain a targeted glucose range in the future.  The system can either operate as an “open-loop” by making recommendations to the user for their approval before enacting or as a “closed-loop” by automatically setting the recommended temporary basal rate.
 
-Du bør gennemføre dette projekt i etaper. For eksempel, først “open loop” til at gøre dig bekendt med hvordan Loop virker. Også, undersøge koden for at sikre, at du forstår, hvad det anbefaler og hvorfor. Når du går videre til “lukket-loop”, gøre det sikkert ved at starte med passende sikkerhedsgrænser og kun gå videre til højere grænser efter flere dage uden lavt blodsukker. Vær venlig at stille spørgsmål på dette punkt om, hvorfor Loop gør de anbefalinger, den gør.  Det bør svare til de beslutninger du selv ville træffe.  Hvis de anbefalinger, det fremsætter, er anderledes, end du ville gøre, så prøv at finde ud af hvorfor.
+You should undertake this project in stages. For example, first “open loop” to familiarize yourself with Loop’s operation. Also, investigate the code to ensure you understand what it is recommending and why. Then when you progress to “closed-loop”, do so safely by starting with appropriate safety limits and only progress to higher limits after several days of no lows. Please ask questions at this point about why Loop is making the recommendations it does.  It should be similar to the therapy decisions you would make yourself.  If the recommendations it makes are different than you would make, try to figure out why.
 
 ## Udviklings Historik
 
-Loop er udviklet som et open source, delt projekt.  For en virkelig interessant læse om historien om Loop udvikling, Tjek denne [Historie af Loop og LoopKit](https://medium.com/@loudnate/the-history-of-loop-and-loopkit-59b3caf13805) indlæg, skrevet af Loop udvikler Nate Racklyeft.  Projektet fortsætter med at være et arbejde i et fællesskab af brugere; vedligeholdt og forbedret af frivillige.
+Loop has been developed as an open-source, shared project.  For a really interesting read about the history of Loop development, check out this [History of Loop and LoopKit](https://medium.com/@loudnate/the-history-of-loop-and-loopkit-59b3caf13805) post, written by Loop developer Nate Racklyeft.  The project continues to be a labor-of-love by a community of users; maintained and improved by volunteers.
 
 
 ## Sådan bruges disse dokumenter
@@ -39,12 +40,12 @@ Loop er udviklet som et open source, delt projekt.  For en virkelig interessant 
 
 ## Hold dig orienteret!
 
-[Tilmeld dig til Loop-annoncering](https://groups.google.com/forum/#!forum/loop-ios-users) for at holde dig orienteret om kritiske problemer, der måtte opstå.
+[Sign up for the Loop Users announcement list](https://groups.google.com/forum/#!forum/loop-ios-users) to stay informed of critical issues that may arise.
 
-Deltag i Zulipchat på [https://loop.zulipchat.com](https://loop.zulipchat.com)
+Join the Zulipchat at [https://loop.zulipchat.com](https://loop.zulipchat.com)
 
-Der er også en [Looped Facebook Group](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf), som du måske ønsker at deltage i for support.  Når du anmoder om at deltage i gruppen, skal du huske at tjekke dine beskeder boks på facebook og svare på meddelelsen.
+There is also a [Looped Facebook Group](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf) that you might wish to join for support.  When you request to join the group, please remember to check your messages box on facebook and respond to the message.
 
 ## Bidrag
 
-Overvej venligst at indsende opdateringer og forbedringer til den dokumentation, du ønsker at dele, ved at indsende en Pull Request til [loopdocs repo](https://github.com/LoopKit/loopdocs). For mere information om, hvordan man bidrager til et open source-projekt, kan denne [Sådan bidrager du til Open Source](https://opensource.guide/how-to-contribute/) guide være nyttig. Du skal også gennemgå Loop [LICENSE](https://github.com/LoopKit/Loop/blob/master/LICENSE.md) og Loop [CODE_OF_CONDUCT](https://github.com/LoopKit/Loop/blob/master/CODE_OF_CONDUCT.md).
+Please consider submitting any updates and improvements to the documentation that you want to share by submitting a Pull Request to the [loopdocs repo](https://github.com/LoopKit/loopdocs). For more information on how to contribute to an open-source project, this [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) guide may be useful. Also, please review the Loop [LICENSE](https://github.com/LoopKit/Loop/blob/master/LICENSE.md) and Loop [CODE_OF_CONDUCT](https://github.com/LoopKit/Loop/blob/master/CODE_OF_CONDUCT.md).
